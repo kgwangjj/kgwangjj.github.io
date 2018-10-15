@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[数论经典习题系列（一）]]></title>
+    <url>%2F2018%2F10%2F15%2F%E6%95%B0%E8%AE%BA%E7%BB%8F%E5%85%B8%E4%B9%A0%E9%A2%98%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%80%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[经典练习题例题1 n个没有区别的球放入r个有标志的盒子里面（n&gt;=r）,每个盒子只允许放一个球，请问有多少种放法？ 每个盒子只能放一个球，所以方法为排列数，P（n，r）; 例题2 n个没有区别的球放入r个有标志的盒子里面（n&gt;=r）,每个盒子至少放一个球，请问有多少种放法？ 方法一分两个步骤完成： （1）首先每个盒子放一个球，因为球是没有区别的，所以这样的方法是1 （2）然后再n-r个球放到r个盒子里面，每个盒子放置的球数没有限制，比如把所有的球都装到其中一个盒子，所以盒子相对于是一个重集：{}。结果就是相当于在重集里面取出n-r个元素的组合 其实就是F（r，n-r）= 也就是 也就是 （1）（2）使用乘法定理之后，结果等于 方法2直接一个步骤完成，要求盒子不能为空，根据隔板法（可以wiki一下）r个盒子，n个球，相当于要把n个球划分为r堆，因为n个球有n-1的缝隙，要划分为r堆，就需要找r-1个缝隙。所以就是在n-1个缝隙里面找出r-1个缝隙就好了答案就是]]></content>
+      <categories>
+        <category>数论</category>
+      </categories>
+      <tags>
+        <tag>重集组合</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[test]]></title>
     <url>%2F2018%2F10%2F13%2Ftest%2F</url>
     <content type="text"><![CDATA[test###test2 ####test3]]></content>
@@ -26,7 +37,7 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F10%2F12%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment 经典练习题例题1 n个没有区别的球放入r个有标志的盒子里面（n&gt;=r）,每个盒子只允许放一个球，请问有多少种放法？ 每个盒子只能放一个球，所以方法为排列数，P（n，r）; 例题2 n个没有区别的球放入r个有标志的盒子里面（n&gt;=r）,每个盒子至少放一个球，请问有多少种放法？ 方法一分两个步骤完成： （1）首先每个盒子放一个球，因为球是没有区别的，所以这样的方法是1 （2）然后再n-r个球放到r个盒子里面，每个盒子放置的球数没有限制，比如把所有的球都装到其中一个盒子，所以盒子相对于是一个重集：{}。结果就是相当于在重集里面取出n-r个元素的组合 其实就是F（r，n-r）= 也就是 也就是 （1）（2）使用乘法定理之后，结果等于 方法2直接一个步骤完成，要求盒子不能为空，根据隔板法（可以wiki一下）r个盒子，n个球，相当于要把n个球划分为r堆，因为n个球有n-1的缝隙，要划分为r堆，就需要找r-1个缝隙。所以就是在n-1个缝隙里面找出r-1个缝隙就好了答案就是]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
         <category>Diary</category>
       </categories>
